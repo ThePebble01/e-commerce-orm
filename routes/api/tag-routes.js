@@ -9,7 +9,7 @@ router.get("/", async (req, res) => {
       include: [{ model: Product }],
     });
     if (!tagData) {
-      res.status(404).json({ message: "No product tags found!" });
+      res.status(404).json({ message: "No tags found!" });
       return;
     }
     res.status(200).json(tagData);
@@ -24,7 +24,7 @@ router.get("/:id", async (req, res) => {
       include: [{ model: Product }],
     });
     if (!tagData) {
-      res.status(404).json({ message: "No categories found!" });
+      res.status(404).json({ message: "No tags found!" });
       return;
     }
     res.status(200).json(tagData);
