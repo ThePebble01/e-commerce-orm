@@ -15,4 +15,4 @@ This application demonstrates a basic back-end for an e-commerce site using a si
 5. Execute 'npm run start' to start the server.
 6. Start sending requests to http://localhost:3001!
 
-This video walks through using the app: https://drive.google.com/file/d/1M5bUhwrQ0ZaHJe1GggXgECyTgEqecrQ2/view
+This video walks through using the app: https://drive.google.com/file/d/1IJPDBGADMvSmqqiMmEluBmxAWQPRu7_z/view
