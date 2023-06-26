@@ -58,6 +58,7 @@ router.post("/", async (req, res) => {
       res
         .status(200)
         .json({ new_product: productData, related_tags: productTags });
+      return;
     }
     res.status(200).json(productData);
   } catch (err) {
